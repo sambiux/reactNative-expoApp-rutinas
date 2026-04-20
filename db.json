@@ -1,0 +1,499 @@
+{
+  "rutinas": [
+    {
+      "id": 1,
+      "nombre": "Rutina Ejercicio 1",
+      "desc": "Ideal para oxigenar el cerebro y relajarse.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 2,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 2,
+      "nombre": "Rutina Descanso 2",
+      "desc": "Paso a paso sin presiones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 3,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 3,
+      "nombre": "Rutina Productividad 3",
+      "desc": "Técnica pomodoro aplicada 100%.",
+      "objetivo": "Productividad",
+      "nivelEstres": 1,
+      "duracion": 60,
+      "completada": true
+    },
+    {
+      "id": 4,
+      "nombre": "Rutina Estudiar 4",
+      "desc": "Sesión activa para sudar y liberar endorfinas.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 2,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 5,
+      "nombre": "Rutina Ejercicio 5",
+      "desc": "Mindfulness y respiración guiada.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 3,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 6,
+      "nombre": "Rutina Descanso 6",
+      "desc": "Lectura profunda con bloqueo de distracciones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 1,
+      "duracion": 45,
+      "completada": true
+    },
+    {
+      "id": 7,
+      "nombre": "Rutina Productividad 7",
+      "desc": "Estiramientos de tren superior e inferior.",
+      "objetivo": "Productividad",
+      "nivelEstres": 2,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 8,
+      "nombre": "Rutina Estudiar 8",
+      "desc": "Rutina enfocada e intensa para máximo rendimiento.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 3,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 9,
+      "nombre": "Rutina Ejercicio 9",
+      "desc": "Ideal para oxigenar el cerebro y relajarse.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 1,
+      "duracion": 30,
+      "completada": true
+    },
+    {
+      "id": 10,
+      "nombre": "Rutina Descanso 10",
+      "desc": "Paso a paso sin presiones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 2,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 11,
+      "nombre": "Rutina Productividad 11",
+      "desc": "Técnica pomodoro aplicada 100%.",
+      "objetivo": "Productividad",
+      "nivelEstres": 3,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 12,
+      "nombre": "Rutina Estudiar 12",
+      "desc": "Sesión activa para sudar y liberar endorfinas.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 1,
+      "duracion": 15,
+      "completada": true
+    },
+    {
+      "id": 13,
+      "nombre": "Rutina Ejercicio 13",
+      "desc": "Mindfulness y respiración guiada.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 2,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 14,
+      "nombre": "Rutina Descanso 14",
+      "desc": "Lectura profunda con bloqueo de distracciones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 3,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 15,
+      "nombre": "Rutina Productividad 15",
+      "desc": "Estiramientos de tren superior e inferior.",
+      "objetivo": "Productividad",
+      "nivelEstres": 1,
+      "duracion": 60,
+      "completada": true
+    },
+    {
+      "id": 16,
+      "nombre": "Rutina Estudiar 16",
+      "desc": "Rutina enfocada e intensa para máximo rendimiento.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 2,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 17,
+      "nombre": "Rutina Ejercicio 17",
+      "desc": "Ideal para oxigenar el cerebro y relajarse.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 3,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 18,
+      "nombre": "Rutina Descanso 18",
+      "desc": "Paso a paso sin presiones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 1,
+      "duracion": 45,
+      "completada": true
+    },
+    {
+      "id": 19,
+      "nombre": "Rutina Productividad 19",
+      "desc": "Técnica pomodoro aplicada 100%.",
+      "objetivo": "Productividad",
+      "nivelEstres": 2,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 20,
+      "nombre": "Rutina Estudiar 20",
+      "desc": "Sesión activa para sudar y liberar endorfinas.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 3,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 21,
+      "nombre": "Rutina Ejercicio 21",
+      "desc": "Mindfulness y respiración guiada.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 1,
+      "duracion": 30,
+      "completada": true
+    },
+    {
+      "id": 22,
+      "nombre": "Rutina Descanso 22",
+      "desc": "Lectura profunda con bloqueo de distracciones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 2,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 23,
+      "nombre": "Rutina Productividad 23",
+      "desc": "Estiramientos de tren superior e inferior.",
+      "objetivo": "Productividad",
+      "nivelEstres": 3,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 24,
+      "nombre": "Rutina Estudiar 24",
+      "desc": "Rutina enfocada e intensa para máximo rendimiento.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 1,
+      "duracion": 15,
+      "completada": true
+    },
+    {
+      "id": 25,
+      "nombre": "Rutina Ejercicio 25",
+      "desc": "Ideal para oxigenar el cerebro y relajarse.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 2,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 26,
+      "nombre": "Rutina Descanso 26",
+      "desc": "Paso a paso sin presiones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 3,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 27,
+      "nombre": "Rutina Productividad 27",
+      "desc": "Técnica pomodoro aplicada 100%.",
+      "objetivo": "Productividad",
+      "nivelEstres": 1,
+      "duracion": 60,
+      "completada": true
+    },
+    {
+      "id": 28,
+      "nombre": "Rutina Estudiar 28",
+      "desc": "Sesión activa para sudar y liberar endorfinas.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 2,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 29,
+      "nombre": "Rutina Ejercicio 29",
+      "desc": "Mindfulness y respiración guiada.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 3,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 30,
+      "nombre": "Rutina Descanso 30",
+      "desc": "Lectura profunda con bloqueo de distracciones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 1,
+      "duracion": 45,
+      "completada": true
+    },
+    {
+      "id": 31,
+      "nombre": "Rutina Productividad 31",
+      "desc": "Estiramientos de tren superior e inferior.",
+      "objetivo": "Productividad",
+      "nivelEstres": 2,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 32,
+      "nombre": "Rutina Estudiar 32",
+      "desc": "Rutina enfocada e intensa para máximo rendimiento.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 3,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 33,
+      "nombre": "Rutina Ejercicio 33",
+      "desc": "Ideal para oxigenar el cerebro y relajarse.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 1,
+      "duracion": 30,
+      "completada": true
+    },
+    {
+      "id": 34,
+      "nombre": "Rutina Descanso 34",
+      "desc": "Paso a paso sin presiones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 2,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 35,
+      "nombre": "Rutina Productividad 35",
+      "desc": "Técnica pomodoro aplicada 100%.",
+      "objetivo": "Productividad",
+      "nivelEstres": 3,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 36,
+      "nombre": "Rutina Estudiar 36",
+      "desc": "Sesión activa para sudar y liberar endorfinas.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 1,
+      "duracion": 15,
+      "completada": true
+    },
+    {
+      "id": 37,
+      "nombre": "Rutina Ejercicio 37",
+      "desc": "Mindfulness y respiración guiada.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 2,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 38,
+      "nombre": "Rutina Descanso 38",
+      "desc": "Lectura profunda con bloqueo de distracciones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 3,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 39,
+      "nombre": "Rutina Productividad 39",
+      "desc": "Estiramientos de tren superior e inferior.",
+      "objetivo": "Productividad",
+      "nivelEstres": 1,
+      "duracion": 60,
+      "completada": true
+    },
+    {
+      "id": 40,
+      "nombre": "Rutina Estudiar 40",
+      "desc": "Rutina enfocada e intensa para máximo rendimiento.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 2,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 41,
+      "nombre": "Rutina Ejercicio 41",
+      "desc": "Ideal para oxigenar el cerebro y relajarse.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 3,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 42,
+      "nombre": "Rutina Descanso 42",
+      "desc": "Paso a paso sin presiones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 1,
+      "duracion": 45,
+      "completada": true
+    },
+    {
+      "id": 43,
+      "nombre": "Rutina Productividad 43",
+      "desc": "Técnica pomodoro aplicada 100%.",
+      "objetivo": "Productividad",
+      "nivelEstres": 2,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 44,
+      "nombre": "Rutina Estudiar 44",
+      "desc": "Sesión activa para sudar y liberar endorfinas.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 3,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 45,
+      "nombre": "Rutina Ejercicio 45",
+      "desc": "Mindfulness y respiración guiada.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 1,
+      "duracion": 30,
+      "completada": true
+    },
+    {
+      "id": 46,
+      "nombre": "Rutina Descanso 46",
+      "desc": "Lectura profunda con bloqueo de distracciones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 2,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 47,
+      "nombre": "Rutina Productividad 47",
+      "desc": "Estiramientos de tren superior e inferior.",
+      "objetivo": "Productividad",
+      "nivelEstres": 3,
+      "duracion": 60,
+      "completada": false
+    },
+    {
+      "id": 48,
+      "nombre": "Rutina Estudiar 48",
+      "desc": "Rutina enfocada e intensa para máximo rendimiento.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 1,
+      "duracion": 15,
+      "completada": true
+    },
+    {
+      "id": 49,
+      "nombre": "Rutina Ejercicio 49",
+      "desc": "Ideal para oxigenar el cerebro y relajarse.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 2,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 50,
+      "nombre": "Rutina Descanso 50",
+      "desc": "Paso a paso sin presiones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 3,
+      "duracion": 45,
+      "completada": false
+    },
+    {
+      "id": 51,
+      "nombre": "Rutina Productividad 51",
+      "desc": "Técnica pomodoro aplicada 100%.",
+      "objetivo": "Productividad",
+      "nivelEstres": 1,
+      "duracion": 60,
+      "completada": true
+    },
+    {
+      "id": 52,
+      "nombre": "Rutina Estudiar 52",
+      "desc": "Sesión activa para sudar y liberar endorfinas.",
+      "objetivo": "Estudiar",
+      "nivelEstres": 2,
+      "duracion": 15,
+      "completada": false
+    },
+    {
+      "id": 53,
+      "nombre": "Rutina Ejercicio 53",
+      "desc": "Mindfulness y respiración guiada.",
+      "objetivo": "Ejercicio",
+      "nivelEstres": 3,
+      "duracion": 30,
+      "completada": false
+    },
+    {
+      "id": 54,
+      "nombre": "Rutina Descanso 54",
+      "desc": "Lectura profunda con bloqueo de distracciones.",
+      "objetivo": "Descanso",
+      "nivelEstres": 1,
+      "duracion": 45,
+      "completada": true
+    },
+    {
+      "id": 55,
+      "nombre": "Rutina Productividad 55",
+      "desc": "Estiramientos de tren superior e inferior.",
+      "objetivo": "Productividad",
+      "nivelEstres": 2,
+      "duracion": 60,
+      "completada": false
+    }
+  ]
+}

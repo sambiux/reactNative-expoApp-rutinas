@@ -1,6 +1,6 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Alert } from 'react-native';
 
-export default function Inicio({ estres, setEstres, themeColor, rutinas }) {
+export default function Inicio({ estres, setEstres, themeColor, rutinas, agregarRutina }) {
   const getSugerencia = () => {
     if (estres === 3) return { act: "Meditación", motiv: "Nivel de estrés alto." };
     if (estres === 1) return { act: "Gimnasio Intenso", motiv: "Energía ideal." };
@@ -8,6 +8,17 @@ export default function Inicio({ estres, setEstres, themeColor, rutinas }) {
   };
 
   const sugerencia = getSugerencia();
+
+  const handleEmpezar = () => {
+    const horaActual = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    agregarRutina({
+      nombre: sugerencia.act,
+      objetivo: sugerencia.motiv,
+      nivelEstres: estres,
+      horario: horaActual
+    });
+    Alert.alert("¡Excelente!", `Has agregado ${sugerencia.act} a tu horario para empezar ahora mismo.`);
+  };
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
@@ -31,7 +42,7 @@ export default function Inicio({ estres, setEstres, themeColor, rutinas }) {
       <View style={[styles.smartCard, { backgroundColor: themeColor }]}>
         <Text style={styles.smartAction}>{sugerencia.act}</Text>
         <Text style={styles.smartReason}>{sugerencia.motiv}</Text>
-        <TouchableOpacity style={styles.btnStart}>
+        <TouchableOpacity style={styles.btnStart} onPress={handleEmpezar}>
           <Text style={[styles.btnStartText, { color: themeColor }]}>Empezar ahora</Text>
         </TouchableOpacity>
       </View>
