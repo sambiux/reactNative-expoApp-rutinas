@@ -112,7 +112,10 @@ export default function HistorialInteligente({ themeColor }) {
 
           <Text style={styles.subtitleSub}>Resultados Sugeridos ({sugeridas.length})</Text>
           {sugeridas.length === 0 ? (
-            <Text style={{ color: '#999', fontStyle: 'italic', textAlign: 'center', marginTop: 10 }}>Sin coincidencias.</Text>
+            <View style={{ alignItems: 'center', marginTop: 20 }}>
+              <Text style={{ fontSize: 40 }}>🔍</Text>
+              <Text style={{ color: '#999', fontStyle: 'italic', textAlign: 'center', marginTop: 10 }}>No se encontraron rutinas congruentes con tus requerimientos de tiempo, estrés u objetivo.</Text>
+            </View>
           ) : (
             sugeridas.map(item => (
                <View key={item.id} style={styles.itemCard}>
